@@ -1,0 +1,20 @@
+body::before{
+        display: block;
+        content: '';
+        height: 10px;
+}
+#event-card:hover{
+    transform: translateY(-10px);
+    
+}
+#event-card{
+    transition-duration: 300ms;
+}
+#navbar:hover{
+    text-decoration: underline;
+    
+}
+#navbar{
+    transition-duration: 300ms;
+}
+
