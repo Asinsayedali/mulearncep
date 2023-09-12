@@ -34,8 +34,13 @@ section {
   margin: 0;
 }
 
-.svg {
-  width: auto;
+svg {
+  width: 150%;
+}
+@media screen and (max-width:400px) {
+   svg{
+    width:100%;
+   }
 }
 
 
